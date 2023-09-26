@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Workforce.Site1" %>
+
+<!DOCTYPE html>
+
+<html class="h-100">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+            <nav class="navbar bg-primary bg-opacity-25">
+               <div class="container-fluid">
+               <a class="navbar-brand text-decoration-none text-primary" href="Default.aspx" >MyWorkforce</a>
+               <a class="navbar-brand text-decoration-none text-primary" href="Dipendenti.aspx" >Dipendenti</a>
+               <a class="navbar-brand text-decoration-none text-primary" href="Pagamenti.aspx" >Pagamenti</a>
+                   <a class="navbar-brand text-decoration-none text-primary" href="ViewDB.aspx" >Liste</a>
+               </div>
+            </nav>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+    </form>
+</body>
+</html>
